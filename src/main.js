@@ -5,8 +5,8 @@ dotenv.config();
 
 const privateKey = process.env.PRIVATE_KEY;
 const rpcUrl =
-  "https://evmos-testnet.lava.build/lava-referer-afc6c9c8-0e06-4756-a1ba-3132dfe8a36c/";
-const chainId = "9000";
+  "RPC";
+const chainId = "CHAIN";
 
 const contractAddress = "CONTRACT-ADDRESS-HERE";
 const contractABI = "CONTRACT-ABI-HERE";
@@ -15,9 +15,9 @@ const tokenAddress = "TOKEN-ADDRESS-HERE";
 const tokenABI = "TOKEN-ABI-HERE";
 
 const recipientAddresses = [
-  "0x6c1e308Bc5Cc26F2596d7373c4e3616D5f67324b",
-  "0xEb6AC4d33607C2493874e5aE257E296832C3F5B0",
-  "0x9d95070239C1a547F078e8Dd291f6a43EB0E79ee",
+  "0x6c1e308Bc5Cc26F2596d7373c4e36xxxxxxxxxxx",
+  "0xEb6AC4d33607C2493874e5aE2xxxxxxxxxxxxxxx",
+  "0x9d95070239C1a547F07xxxxxxxxxxxxxxxxxxxxx",
 ];
 
 const provider = new Web3.providers.HttpProvider(rpcUrl);
