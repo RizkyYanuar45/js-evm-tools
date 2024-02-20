@@ -1,0 +1,25 @@
+{
+  "name": "evm-auto-transactions-script",
+  "version": "1.0.0",
+  "description": "This is a script able to automatically perform transactions on a custom EVM blockchain.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadapera/EVM-auto-transactions-script.git"
+  },
+  "author": "Davide Perozzi - dadapera",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/dadapera/EVM-auto-transactions-script/issues"
+  },
+  "homepage": "https://github.com/dadapera/EVM-auto-transactions-script#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "web3": "^4.2.2"
+  }
+}
